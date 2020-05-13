@@ -29,6 +29,7 @@ class Window(QWidget):
         self.v_layout.addWidget(self.button)
         self.setLayout(self.v_layout)
 
+
 if __name__=='__main__':
     app=QApplication([])
     win=Window('IHM')
