@@ -3,7 +3,7 @@ from PySide2.QtGui import QIcon
 from PySide2.QtCore import Qt
 
 class Window(QWidget):
-    def __init__(self,title=''):
+    def __init__(self):
         QWidget.__init__(self)
         self.setFixedSize(400,300)
         self.setWindowTitle('IHM')
