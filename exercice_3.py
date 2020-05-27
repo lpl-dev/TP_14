@@ -32,6 +32,6 @@ class Window(QWidget):
 
 if __name__=='__main__':
     app=QApplication([])
-    win=Window('IHM')
+    win=Window()
     win.show()
     app.exec_()
